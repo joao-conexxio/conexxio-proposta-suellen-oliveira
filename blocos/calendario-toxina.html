@@ -1,0 +1,59 @@
+<section class="blk-tox" id="toxina">
+  <div class="wrap">
+    <div class="blk-tox__cab" data-reveal>
+      <p class="blk-tox__eyebrow">Toxina botulínica</p>
+      <h2 class="blk-tox__titulo">Botox tem data de volta. A gente anota por você.</h2>
+      <p class="blk-tox__lead">O efeito da toxina é temporário, e é isso que deixa o resultado sob controle. Este é o caminho de uma aplicação até a próxima.</p>
+    </div>
+    <ol class="blk-tox__linha">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-tox__ico"><!--icone:seringa--></span>
+        <span class="blk-tox__quando">Dia da aplicação</span>
+        <h3>Avaliação e aplicação</h3>
+        <p>A Dra. Suellen observa como o seu rosto se mexe, mostra onde vai aplicar e faz na mesma visita. Você volta para a rotina no mesmo dia.</p>
+      </li>
+      <li data-reveal style="--d:90ms">
+        <span class="blk-tox__ico"><!--icone:rosto--></span>
+        <span class="blk-tox__quando">3 a 7 dias</span>
+        <h3>O efeito aparece</h3>
+        <p>A expressão suaviza aos poucos. Nos primeiros dias é normal ainda não ver diferença no espelho.</p>
+      </li>
+      <li data-reveal style="--d:180ms">
+        <span class="blk-tox__ico"><!--icone:check--></span>
+        <span class="blk-tox__quando">Cerca de 15 dias</span>
+        <h3>Revisão</h3>
+        <p>Você volta para ela conferir o resultado e fazer um ajuste fino, se precisar.</p>
+      </li>
+      <li data-reveal style="--d:270ms">
+        <span class="blk-tox__ico"><!--icone:agenda--></span>
+        <span class="blk-tox__quando">4 a 6 meses</span>
+        <h3>Hora de voltar</h3>
+        <p>O efeito diminui e a expressão volta. O intervalo varia de pessoa para pessoa, e a data da sua aplicação fica registrada.</p>
+      </li>
+    </ol>
+    <p class="blk-tox__nota" data-reveal>Não precisa guardar a data de cabeça: perto da hora de voltar, a recepção manda uma mensagem no WhatsApp para remarcar.</p>
+  </div>
+</section>
+
+<style>
+.blk-tox{padding-block:var(--sp-section)}
+.blk-tox__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-tox__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-tox__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-tox__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-tox__linha{list-style:none;margin:0;padding:0 0 0 1.6rem;display:grid;gap:var(--sp-4);position:relative}
+.blk-tox__linha::before{content:"";position:absolute;left:.45rem;top:.4rem;bottom:.4rem;width:2px;background:linear-gradient(var(--pulse),color-mix(in srgb,var(--brand) 30%,transparent))}
+.blk-tox__linha li{position:relative;padding:var(--sp-3);border-radius:var(--radius);background:color-mix(in srgb,var(--pulse) 9%,var(--bg));border:1px solid color-mix(in srgb,var(--brand) 14%,transparent)}
+.blk-tox__linha li::before{content:"";position:absolute;left:calc(-1.6rem + .1rem);top:1.5rem;width:.8rem;height:.8rem;border-radius:50%;background:var(--pulse);box-shadow:0 0 0 4px var(--bg)}
+.blk-tox__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-tox__ico svg{width:100%;height:100%}
+.blk-tox__quando{display:block;margin-top:var(--sp-2);font-size:var(--t-label);letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
+.blk-tox__linha h3{margin:.35rem 0 .4rem;font-family:var(--f-display);font-size:1.6rem;line-height:1.15;color:var(--ink)}
+.blk-tox__linha p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-tox__nota{margin:var(--sp-5) 0 0;font-family:var(--f-display);font-size:1.35rem;line-height:1.4;color:var(--ink);max-width:40rem}
+@media (min-width:900px){
+  .blk-tox__linha{grid-template-columns:repeat(4,1fr);padding:2rem 0 0;gap:var(--sp-3)}
+  .blk-tox__linha::before{left:0;right:0;top:.4rem;bottom:auto;width:auto;height:2px;background:linear-gradient(90deg,var(--pulse),color-mix(in srgb,var(--brand) 30%,transparent))}
+  .blk-tox__linha li::before{left:1.5rem;top:calc(-2rem + .05rem)}
+}
+</style>

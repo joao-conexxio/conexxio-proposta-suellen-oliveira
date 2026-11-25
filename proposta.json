@@ -1,0 +1,258 @@
+{
+  "slug": "suellen-oliveira",
+  "negocio": {
+    "nome": "Dra. Suellen Oliveira",
+    "whatsapp": "5547996938691",
+    "telefone": "(47) 99693-8691",
+    "funcionamento": {
+      "seg": "13:00-20:00",
+      "ter": "13:00-20:00",
+      "qua": "13:00-20:00",
+      "qui": "13:00-20:00",
+      "sex": "13:00-20:00",
+      "sab": "09:00-12:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Centro · Joinville",
+        "endereco": "R. Mário Lobo, 61, sala 903 – Edifício Terraço Center – Centro, Joinville – SC, 89201-330",
+        "telefone": "(47) 99693-8691",
+        "horario": "Segunda a sexta, 13h às 20h · Sábado, 9h às 12h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#6E4B36",
+    "brand2": "#4A3022",
+    "ink": "#2A1E17",
+    "bg": "#FAF6F1",
+    "pulse": "#B98D68",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "GlowLift", "href": "#glowlift" },
+          { "texto": "Botox", "href": "#toxina" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Harmonização facial · Joinville",
+        "h1": "Harmonização que deixa o seu rosto com cara de descanso",
+        "lead": "A Dra. Suellen Oliveira atende no Centro de Joinville com um plano para o rosto inteiro: toxina, preenchimento e bioestimulador na medida do que cada traço pede.",
+        "cta": "Marcar avaliação",
+        "ctaSecundario": "Conhecer o GlowLift",
+        "ctaSecundarioHref": "#glowlift",
+        "imagem": "midia/dra.jpg",
+        "imagemAlt": "Dra. Suellen Oliveira de jaleco branco na sala de procedimentos da clínica",
+        "tarja": [
+          "5,0 no Google, 89 avaliações",
+          "Criadora do Método GlowLift",
+          "Do plano ao retorno com a mesma doutora",
+          "Sábado das 9h às 12h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Método GlowLift",
+          "Toxina botulínica",
+          "Preenchimento labial",
+          "Rinomodelação",
+          "Bioestimulador de colágeno"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "texto": [
+          "No nono andar do Terraço Center, a sala de espera tem poltronas claras, flores e uma taça servida antes de você entrar.",
+          "Cada detalhe foi escolhido pela própria Dra. Suellen, da luz à maca elétrica que chegou este ano. O procedimento leva o tempo que precisar, e a explicação vem antes, não depois."
+        ],
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Recepção da clínica com balcão de mármore, poltronas brancas e mesa de centro com taças"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "A indicação sai da avaliação. Estes são os procedimentos que a Dra. Suellen faz no consultório.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas da testa, entre as sobrancelhas e ao redor dos olhos, mantendo o rosto com expressão.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento",
+            "descricao": "Ácido hialurônico para lábios, contorno e pontos de sustentação. Volume onde o rosto pede, sem exagero.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Rinomodelação",
+            "descricao": "Ajusta o perfil do nariz com preenchimento, sem cirurgia e sem afastamento da rotina.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Bioestimulador de colágeno",
+            "descricao": "Estimula a pele a produzir colágeno e melhora firmeza e textura de forma gradual, ao longo dos meses.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Harmonização facial",
+            "descricao": "A combinação dos procedimentos num plano só, montado pelo Método GlowLift.",
+            "icone": "estrela"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/glowlift.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "O que as pacientes dizem em números",
+        "itens": [
+          { "valor": "5,0", "rotulo": "nota no Google" },
+          { "valor": "89", "rotulo": "avaliações de pacientes", "contar": 89 },
+          { "valor": "6", "rotulo": "dias por semana de atendimento", "contar": 6 }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/calendario-toxina.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Remarcar o botox leva duas mensagens",
+        "lead": "O número é o mesmo do Google e do Instagram. A recepção confere a data da sua última aplicação e já oferece um horário.",
+        "cta": "Chamar a Dra. Suellen",
+        "contato": "Dra. Suellen Oliveira",
+        "mensagens": [
+          { "de": "clinica", "texto": "Oi, Camila! Sua toxina foi aplicada em 12 de junho, já está entrando na época de retorno. Quer ver um horário com a Dra. Suellen?" },
+          { "de": "paciente", "texto": "Nossa, nem lembrava! Quero sim, de preferência depois das 17h" },
+          { "de": "clinica", "texto": "Tenho quinta às 18h30 ou sábado às 10h. Qual fica melhor?" },
+          { "de": "paciente", "texto": "Quinta às 18h30 😊" },
+          { "de": "clinica", "texto": "Reservado! Te mando a confirmação um dia antes." }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Um consultório pensado para você ficar à vontade",
+        "lead": "Sala de espera, sala de procedimentos e a maca elétrica nova, no Centro de Joinville.",
+        "itens": [
+          { "imagem": "midia/maca.jpg", "legenda": "A Dra. Suellen na sala de procedimentos, com a maca elétrica" },
+          { "imagem": "midia/espera.jpg", "legenda": "Sala de espera" },
+          { "imagem": "midia/sala.jpg", "legenda": "Detalhe da sala, com boiserie dourada" }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já passou por aqui",
+        "itens": [
+          {
+            "texto": "Já faz mais de três anos que me cuido com a Dra. Suellen. Ela não atende mais na minha cidade, mas faço questão de ir até Joinville.",
+            "autor": "Ester",
+            "contexto": "no Google"
+          },
+          {
+            "texto": "Me senti segura e bem orientada da avaliação ao procedimento. Olhar estético natural, respeitando os meus traços.",
+            "autor": "Nuria R.",
+            "contexto": "no Google"
+          },
+          {
+            "texto": "Me explicou certinho como funciona o procedimento e o pós. Mão de fada, super levinha.",
+            "autor": "Eduarda C.",
+            "contexto": "no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "O resultado fica artificial?",
+            "r": "O plano é feito para manter os seus traços. Na avaliação a Dra. Suellen mostra o que faria e o que não faria no seu rosto, e por quê."
+          },
+          {
+            "p": "Dói?",
+            "r": "As agulhas são finas e, quando o procedimento pede, há anestesia. Nas avaliações do Google, as pacientes costumam descrever a mão dela como leve."
+          },
+          {
+            "p": "Quanto tempo dura o botox?",
+            "r": "Em geral de 4 a 6 meses, variando de pessoa para pessoa. A revisão acontece por volta de 15 dias depois da aplicação."
+          },
+          {
+            "p": "Dá para fazer tudo numa visita só?",
+            "r": "Depende do plano. Alguns procedimentos são feitos no mesmo dia da avaliação; outros ficam para uma segunda visita, na ordem que o GlowLift indicar."
+          },
+          {
+            "p": "Qual o horário de atendimento?",
+            "r": "Segunda a sexta, das 13h às 20h, e sábado das 9h às 12h. Dá para marcar depois do trabalho."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/espera.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Uma conversa com a Dra. Suellen para entender o que o seu rosto pede. Chame no WhatsApp e escolha o horário.",
+        "cta": "Marcar avaliação"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}

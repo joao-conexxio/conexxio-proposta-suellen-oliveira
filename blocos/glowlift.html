@@ -1,0 +1,36 @@
+<section class="blk-gl" id="glowlift">
+  <div class="wrap blk-gl__grade">
+    <figure class="blk-gl__foto" data-reveal>
+      <!--foto:midia/glowlift.jpg|Dra. Suellen Oliveira sentada numa poltrona, com o título Método GlowLift-->
+    </figure>
+    <div class="blk-gl__texto">
+      <p class="blk-gl__eyebrow" data-reveal>Criado pela Dra. Suellen</p>
+      <h2 class="blk-gl__titulo" data-reveal>Método GlowLift</h2>
+      <p class="blk-gl__lead" data-acende>Antes de qualquer seringa, um plano para o rosto inteiro. O GlowLift junta o que o seu rosto pede, na dose certa, para o resultado parecer você em um dia muito bom.</p>
+      <ol class="blk-gl__pilares">
+        <li data-reveal style="--d:0ms"><span class="blk-gl__n">01</span><div><h3>Estratégia</h3><p>A avaliação olha proporção, pele e expressão juntas e define a ordem do que fazer, em vez de tratar uma ruga por vez.</p></div></li>
+        <li data-reveal style="--d:90ms"><span class="blk-gl__n">02</span><div><h3>Equilíbrio</h3><p>Cada ponto é pensado em relação ao resto do rosto. O objetivo é harmonia, não volume.</p></div></li>
+        <li data-reveal style="--d:180ms"><span class="blk-gl__n">03</span><div><h3>Naturalidade</h3><p>Sem mudar quem você é. Os seus traços ficam, e a pele ganha aquele brilho de descanso.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-gl{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 10%,var(--bg))}
+.blk-gl__grade{display:grid;gap:var(--sp-5)}
+.blk-gl__foto{margin:0;max-width:26rem}
+.blk-gl__foto img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius);box-shadow:0 30px 60px -30px color-mix(in srgb,var(--brand2) 55%,transparent)}
+.blk-gl__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-gl__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);color:var(--ink)}
+.blk-gl__lead{margin:var(--sp-3) 0 var(--sp-5);font-family:var(--f-display);font-size:1.4rem;line-height:1.45;color:var(--ink);max-width:36rem}
+.blk-gl__pilares{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-gl__pilares li{display:grid;grid-template-columns:auto 1fr;gap:1rem;padding-top:var(--sp-3);border-top:1px solid color-mix(in srgb,var(--brand) 22%,transparent)}
+.blk-gl__n{font-family:var(--f-display);font-size:1.8rem;line-height:1;color:var(--pulse)}
+.blk-gl__pilares h3{margin:0 0 .35rem;font-family:var(--f-display);font-size:1.5rem;line-height:1.15;color:var(--ink)}
+.blk-gl__pilares p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:900px){
+  .blk-gl__grade{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:5rem;align-items:center}
+  .blk-gl__foto{max-width:none}
+}
+</style>
